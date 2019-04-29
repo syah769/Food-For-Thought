@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobilemocap.ahmadriza.apik">
+
+    <!-- Include required permissions for Google Mobile Ads to run -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Splashscreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FormUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KaloriMakanan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchMakanan"
+            android:label="@string/title_activity_search_makanan"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AddMakanan"
+            android:screenOrientation="portrait" />
+
+        <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name=".Hasil" />
+        <activity android:name=".Utama" />
+        <activity android:name=".RegistrationLogin.activities.test" />
+        <activity android:name=".RegistrationLogin.activities.LoginActivity" />
+        <activity android:name=".RegistrationLogin.activities.RegisterActivity" />
+        <activity android:name=".RegistrationLogin.activities.Menu" />
+        <activity android:name=".CalculatorActivity" />
+        <activity android:name=".Result" />
+        <activity android:name=".History" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ExerciseActivity" />
+        <activity android:name=".RegistrationLogin.fragments.HomeFragment" />
+        <activity android:name=".RegistrationLogin.fragments.ProfileFragment" />
+        <activity android:name=".RegistrationLogin.ProfileActivity_" />
+        <activity android:name=".WorkoutAndExercise.DietPlan.AddNewMealCustomDialog" />
+        <activity android:name=".RegistrationLogin.activities.Testing" />
+        <activity android:name=".WorkoutAndExercise.DietPlan.DietPlan" />
+        <activity android:name=".WorkoutAndExercise.DietPlan.MealDetails" />
+        <activity android:name=".WorkoutAndExercise.Exercise.AddExerciseToWorkoutRoutineCustomDialog" />
+        <activity android:name=".WorkoutAndExercise.Exercise.AddExerciseToWorkoutRoutineCustomDialog2" />
+        <activity android:name=".WorkoutAndExercise.Exercise.AddNewExerciseCustomDialog" />
+        <activity android:name=".WorkoutAndExercise.Exercise.ExerciseCategory" />
+        <activity android:name=".WorkoutAndExercise.Exercise.ExerciseDetails" />
+        <activity android:name=".WorkoutAndExercise.Workout.AddNewWorkoutRoutineCustomDialog" />
+        <activity android:name=".WorkoutAndExercise.Workout.WorkoutCategories" />
+        <activity android:name=".WorkoutAndExercise.Workout.WorkoutCategory" />
+        <activity android:name=".WorkoutAndExercise.Workout.WorkoutTimeManager"></activity>
+    </application>
+
+</manifest>

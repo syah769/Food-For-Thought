@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "745000234796",
+    "firebase_url": "https://apik-7f2c4.firebaseio.com",
+    "project_id": "apik-7f2c4",
+    "storage_bucket": "apik-7f2c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745000234796:android:12fae232e87c1e0b",
+        "android_client_info": {
+          "package_name": "com.mobilemocap.ahmadriza.apik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745000234796-duf3mdedes0fdtmo1r9p2uk3tos10j6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA9u4sFU2yIFxmnC_oPEc0_ci_7gOs-0U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
